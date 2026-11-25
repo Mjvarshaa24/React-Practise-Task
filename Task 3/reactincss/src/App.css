@@ -1,0 +1,14 @@
+.buy{
+    background-color: rgb(96, 96, 255);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.buy:hover{
+    background-color: gray;
+}
