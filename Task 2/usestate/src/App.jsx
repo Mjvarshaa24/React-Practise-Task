@@ -21,7 +21,12 @@ const App = () => {
   }
 
   const addtwoTickets=()=>{
-    setTickets(prev=>Math.min(prev+2,10));
+    if(tickets+2<=10){
+      setTickets(prev=>prev+2);
+    }
+    else{
+      setTickets(10);
+    }
   }
 
   return (
