@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightgoldenrodyellow;
+}
+.books{
+    width:600px;
+    margin:10px auto;
+    background-color:white;
+    padding: 30px;
+    border-radius: 10px;  
+}
+.books h1{
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+.books ul{
+    list-style: none; 
+}
+.books li{
+    background-color: rgb(251, 133, 133);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.books h3{
+    font-style: italic;
+    font-size: 24px;
+}
+.Highlight{
+    background-color: gray;
+    color: rgb(19, 19, 244);
+    border: 2px solid rgb(244, 11, 11);
+    border-radius: 8px;  
+}
